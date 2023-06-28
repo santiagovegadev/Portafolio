@@ -1,0 +1,4 @@
+font logo - hammersmith one 
+font titulos - hammersmith one 
+font redes - hammersmith one 
+font textos - lato

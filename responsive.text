@@ -1,0 +1,5 @@
+-breakpoint movil 320px
+movil 480px
+tablet 960px
+-breakpoint tablet 760px
+desktop 1320 px

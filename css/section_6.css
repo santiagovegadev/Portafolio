@@ -1,0 +1,115 @@
+:root {
+    --Background_color:  #2965f1;
+    --Letras_naranjas: #F16529;
+    --figuras: #FFFFFF;
+    --letra_de_proyectos-e-inputs: #6C6B6B;
+    --enlaces_de_proyectos: #B5B5B5;
+    --input_de_contacto: #CBCBCB;
+
+    --font_logo: 'Hammersmith One', sans-serif;
+    --font_titulos: 'Hammersmith One', sans-serif;
+    --font_redes:'Hammersmith One', sans-serif;
+    --font_textos: 'Lato', sans-serif;
+}
+
+.lado_derecho_6 {
+    width: 30%;
+}
+.formulario {
+    width: 30rem;
+    background-color: var(--figuras);
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario h3{
+    color: var(--Letras_naranjas);
+    width: 90%;
+    margin: 2rem auto;
+    font-size: 2rem;
+}
+
+.formulario input {
+    width: 90%;
+    height: 2.2rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border-radius: 2px;
+    border: none;
+    background-color: var(--input_de_contacto);
+    padding: .5rem;
+
+}
+
+.formulario textarea {
+    width: 90%;
+    height: 10rem;
+    border-radius: 2px;
+    border-radius: 2px;
+    margin: auto;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: var(--input_de_contacto);
+    resize: none;
+    padding: .5rem;
+}
+
+.formulario textarea, input:focus{
+    outline:none!important ;
+}
+
+#submit {
+    width: 50%;
+    height: 2.4rem;
+    background-color: var(--Letras_naranjas);
+    color: var(--figuras);
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+    .section_6 {
+        /* background-color: #F16529; */
+        width: 90%;
+        flex-direction: column;
+        /* background-color: antiquewhite; */
+        /* margin-top: 2rem; */
+        margin-left: 5%;
+        margin-right: 5%;
+        height:auto;
+      
+      }
+
+      .lado_derecho_6  {
+        width: 100%;
+      }
+
+      .formulario {
+        max-width: 300px;
+      }
+}
+
+/* TABLET */
+@media screen and  (min-width:480px) and (max-width:960px) {
+    .section_6 {
+        /* background-color: #F16529; */
+        width: 90%;
+        flex-direction: column;
+        /* background-color: antiquewhite; */
+        /* margin-top: 2rem; */
+        margin-left: 5%;
+        margin-right: 5%;
+        height:auto;
+      
+      }
+
+      .lado_derecho_6  {
+        width: 100%;
+      }
+
+      .formulario {
+        max-width: 100%;
+      }
+}

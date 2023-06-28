@@ -1,0 +1,155 @@
+:root {
+    --Background_color:  #2965f1;
+    --Letras_naranjas: #F16529;
+    --figuras: #FFFFFF;
+    --letra_de_proyectos-e-inputs: #6C6B6B;
+    --enlaces_de_proyectos: #B5B5B5;
+    --input_de_contacto: #CBCBCB;
+
+    --font_logo: 'Hammersmith One', sans-serif;
+    --font_titulos: 'Hammersmith One', sans-serif;
+    --font_redes:'Hammersmith One', sans-serif;
+    --font_textos: 'Lato', sans-serif;
+}
+
+.section_3 {
+  text-align: center;
+  height: calc(100vh - 3rem);
+  /* background-color: #F16529; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+
+
+
+.section_3 h2 {
+    margin-top: 1rem;
+    font-family: var(--font_titulos);
+    font-size: 2rem;
+    color: var(--figuras);
+    letter-spacing: 2px;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+
+}
+
+.skills__cards {
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--figuras);
+    margin: .3rem .3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: flex-start;
+}
+
+.skills__cards img {
+    height: 30%;
+    padding-bottom: .5rem;
+    padding-left: .5rem;
+}
+
+.skills p {
+    color: var(--letra_de_proyectos-e-inputs);
+    padding-bottom: .5rem;
+    padding-left: .5rem;
+}
+
+  .hobbies p {
+    color: var(--letra_de_proyectos-e-inputs);
+    padding-bottom: .5rem;
+    padding-left: .5rem;
+}
+
+@media screen and (max-width:480px) {
+    .section_3 {
+        /* background-color: #F16529; */
+        width: 90%;
+        justify-content: flex-end;
+        /* background-color: antiquewhite; */
+        /* margin-top: 2rem; */
+        margin-left: 5%;
+        margin-right: 5%;
+        height:auto;
+      
+      }
+
+      .section_3 h2 {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+      }
+
+      .skills__cards {
+        width: 7rem;
+        height: 7rem;
+        background-color: var(--figuras);
+        margin: .4rem .4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content:end;
+        align-items: flex-start;
+    }
+
+    .h2{
+        margin-top: 1rem;
+        font-size: 1rem;
+        letter-spacing: 0;  
+    }
+}
+
+/* TABLET */
+@media screen and  (min-width:480px) and (max-width:960px) {
+    .section_3 {
+        /* background-color: #F16529; */
+        width: 90%;
+        justify-content: flex-end;
+        /* background-color: antiquewhite; */
+        /* margin-top: 2rem; */
+        margin-left: 5%;
+        margin-right: 5%;
+        height:auto;
+        margin-top: 4rem;
+      
+      }
+
+      .section_3 h2 {
+        margin-top: 2rem;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+
+      .skills__cards {
+        width: 9rem;
+        height: 9rem;
+        background-color: var(--figuras);
+        margin: .6rem .6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content:end;
+        align-items: flex-start;
+    }
+
+    .h2{
+        margin-top: 1rem;
+        font-size: 1rem;
+        letter-spacing: 0;  
+    }
+}

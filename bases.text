@@ -1,0 +1,13 @@
+:root {
+    --Background color #2965F1
+    --Letras naranjas #F16529
+    --figuras #FFFFFF
+    --letra de proyectos e inputs #6C6B6B
+    --enlaces de proyectos #B5B5B5
+    --input de contacto #CBCBCB
+
+    --font logo - hammersmith one 
+    --font titulos - hammersmith one 
+    --font redes - hammersmith one 
+    --font textos - lato
+}

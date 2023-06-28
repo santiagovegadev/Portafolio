@@ -1,0 +1,86 @@
+:root {
+    --Background_color:  #2965f1;
+    --Letras_naranjas: #F16529;
+    --figuras: #FFFFFF;
+    --letra_de_proyectos-e-inputs: #6C6B6B;
+    --enlaces_de_proyectos: #B5B5B5;
+    --input_de_contacto: #CBCBCB;
+
+    --font_logo: 'Hammersmith One', sans-serif;
+    --font_titulos: 'Hammersmith One', sans-serif;
+    --font_redes:'Hammersmith One', sans-serif;
+    --font_textos: 'Lato', sans-serif;
+
+}
+
+
+.lado_izquierdo h2{
+    margin-top: 1rem;
+    font-family: var(--font_titulos);
+    font-size: 4rem;
+    color: var(--figuras);
+    letter-spacing: 5px;
+
+}
+
+.logo_alura {
+    width: 25rem;
+    background-color: var(--figuras);
+    padding: 2rem 4rem;
+}
+
+@media screen and (max-width:480px) {
+    .section_5 {
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+        justify-content: flex-end;
+        /* background-color: antiquewhite; */
+        margin-top: 2rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+
+    .logo_alura {
+        width: 80%;
+        background-color: var(--figuras);
+        padding: 2rem 4rem;
+        margin: 0 auto;
+    }
+
+    .h2{
+        margin-top: 1rem;
+        font-size: 1rem;
+        letter-spacing: 0;  
+    }
+}
+
+/* TABLET */
+
+@media screen and  (min-width:480px) and (max-width:960px) {
+    .section_5 {
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+        justify-content: flex-end;
+        /* background-color: antiquewhite; */
+        margin-top: 2rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+
+    .logo_alura {
+        width: 50%;
+        background-color: var(--figuras);
+        padding: 2rem 4rem;
+        margin: 0 auto;
+    }
+
+    .h2{
+        margin-top: 1rem;
+        font-size: 1rem;
+        letter-spacing: 0;  
+    }
+}
